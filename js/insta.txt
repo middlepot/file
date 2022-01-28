@@ -1,0 +1,109 @@
+//   ・゜ ♡   web code snippet for instagram   ♡ ゜ ・
+//         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
+
+//      last update :  2022 . january . 27
+
+function addStyleString(str) {
+    var node = document.createElement('style');
+    node.innerHTML = str;
+    document.body.appendChild(node);
+}
+
+if(window.location.host.includes('instagram.com')){
+var link = document.querySelectorAll("link[rel*='icon']") || document.createElement('link');
+for(var i = 0; i < link.length; ++i){
+    link[i].type = 'image/x-icon';
+    link[i].rel = 'icon';
+    link[i].href = 'https://instagram.fcgh10-1.fna.fbcdn.net/v/t51.2885-15/e35/138746589_442907616865035_5029817158956687149_n.jpg?_nc_ht=instagram.fcgh10-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=zutUN4LOW1QAX_R5sZu&edm=AP_V10EBAAAA&ccb=7-4&oh=00_AT8B8_HwHi537DKqKpXQPYbKJ76OfEMUi2rNkgJpQs_Tqw&oe=61BFF54E&_nc_sid=4f375e';
+    document.getElementsByTagName('head')[0].appendChild(link[i])
+}
+	var c = `body{background: url("https://i.imgur.com/VtPAPqt.png") repeat !important;
+	    background-color: 237, 223, 223;
+	}
+	
+.ekjoN, .sDN5V {
+    --f52: 163, 144, 144 !important;
+    --h1d: 163, 144, 144 !important;
+    --de5: 163, 144, 144 !important;
+    --d69: 237, 223, 223 !important;
+    --b86: 163, 144, 144 !important;
+    --i30: 163, 144, 144 !important;
+    --d62: 237, 223, 223 !important;
+    --e4f: 237, 223, 223 !important;
+    --a72: 237, 223, 223 !important;
+    --ie3: 237, 223, 223 !important;
+    --c37: 237, 223, 223 !important;
+    --f24: 237, 223, 223 !important;
+    --jbb: 237, 225, 225 !important;
+    --eca: 237, 225, 225 !important;
+    --jb7: 237, 225, 225 !important;
+    --fa7: 237, 225, 225 !important;
+    --aa6: 237, 225, 225 !important;
+    --ba8: 237, 225, 225 !important;
+    --eac: 237, 223, 223 !important;
+}
+
+#react-root, article, div, footer, header, main, nav, section {
+border: 0 solid rgb(237, 223, 223);
+}
+
+._8-yf5 {
+    color: rgb(209, 184, 184);
+    fill: rgb(209, 184, 184);
+}
+img.s4Iyt {
+    width: 0px;
+}
+  
+.ZUy1d{background-color: rgba(242, 230, 230, 0.1) !important;}
+.rlv6m{text-indent: -9999px;}
+.KlOKT{color: rgba(242, 230, 230, 0.1) !important;}
+.dTeP6{color: rgba(242, 230, 230, 0.1) !important;}
+._81NM2{text-indent: -9999px;}
+.g47SY{text-indent: -9999px;}
+.1OXF2{text-indent: -9999px;}
+.FH9sR{text-indent: -9999px;}
+.DCpAF{display: none !important;}
+.k9GMp{display: none !important;}
+.tc8A9{display: none !important;}
+.vwCYk
+.Ln-UN, .-Ve0, .qn-0x, .Nm9Fw, .EDfFK, .ygqzn, .sqdOP, .Mr508, ._81NM2 {display: none !important;}
+.heKAw{color:rgb(191, 170, 170)!important;}
+body, button, input, textarea, a.FPmhX.MBL3Z, .Yk1V7, div.QGPIr, _7UhW9, .fKFbl, .yUEEX, .KV-D4, .fDxYl, .C4VMK, .gmFkV{color:rgb(135, 122, 122)!important;}
+.eebAO, .h_uhZ{color:rgb(135, 122, 122)!important;}
+canvas.CfWVH{display: none !important;}
+.r8ZrO,.SkY6J{display: none !important;}
+.rBNOH>[data-testid='post-comment-root']{display: none !important;}
+button.wpO6b.ZQScA {display: none !important;}
+.yWX7d._8A5w5, ._8A5w5, a._8A5w5, a._8A5w5:visited, .yWX7d, .yWX7d:visited, a.yWX7d, a.yWX7d:visited, a.yWX7d._8A5w5, a.yWX7d._8A5w5:visited,._8Pl3R,.PJXu4,.eXle2{color:rgb(176, 153, 153)!important;}
+a.xil3i,a.O4GlU{color:rgb(235, 223, 223)!important;}
+._4BSuu, div._4BSuu{color:rgb(235, 223, 223)!important;}
+.notranslate{color:rgb(201, 175, 175)!important;}
+div.react-root{color: rgba(242, 230, 230, 0.1) !important;}
+
+body, .react-root, .qF0y9,.Igw0E,.rBNOH,.YBx95,.vwCYk,._9eogI,._01nki,.yUdUG{background-color: rgba(242, 230, 230,0.01) !important;}
+section{background-color: rgba(242, 230, 230, 0.1) !important;}
+.ZyFrc,.qF0y9,.Igw0E,.IwRSH,.YBx95,._4EzTm,.XfCBB,.g6RW6,.k8Vux,.snXeX,a.k8Vux:visited{color:rgb(235, 223, 223)!important;}
+
+.glyphsSpriteDirect__outline__96,.u-__7{display: none !important;}
+.qF0y9,.Igw0E,.IwRSH,.eGOV_,._4EzTm,.qF0y9,.Igw0E,.IwRSH,.eGOV_,.ybXk5,.vwCYk,.qF0y9,.Igw0E,.IwRSH,.eGOV_,.ybXk5,.vwCYk{color: rgba(242, 230, 230,0.01) !important;}
+
+::-webkit-scrollbar {
+width: 6px;
+height: 10px;
+background: transparent;
+}
+::-webkit-scrollbar-thumb {
+background-color: #fcf5f5;
+-webkit-border-radius: 0ex;
+border: 1px solid #e3cccc;
+}
+ ::selection {text-shadow: 0 0 2px #cec1bb;color:#cec1bb}
+ ::-moz-selection {text-shadow: 0 0 2px #cec1bb;color:#cec1bb}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px #e3cccc inset!important;-webkit-animation-name: autofill;-webkit-animation-fill-mode: both;border-color: #9F918E !important;}
+@-webkit-keyframes autofill {to {color: #e3cccc;border-color: #9F918E !important;}}`;
+    addStyleString(c);
+}
+
+//   ・゜ ♡   web code snippet for instagram   ♡ ゜ ・
+//         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
