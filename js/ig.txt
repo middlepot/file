@@ -1,7 +1,7 @@
 //   ・゜ ♡   web code snippet for instagram   ♡ ゜ ・
 //         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
 
-//      last update :  2022 . january . 27
+//      last update :  2022 . february . 12
 
 function addStyleString(str) {
     var node = document.createElement('style');
@@ -73,6 +73,7 @@ body, button, input, textarea, a.FPmhX.MBL3Z, .Yk1V7, div.QGPIr, _7UhW9, .fKFbl,
 .eebAO, .h_uhZ{color:rgb(135, 122, 122)!important;}
 canvas.CfWVH{display: none !important;}
 .r8ZrO,.SkY6J{display: none !important;}
+a>div._7UhW9.xLCgt.MMzan._0PwGv.uL8Hv.T0kll{display: none !important;}
 .rBNOH>[data-testid='post-comment-root']{display: none !important;}
 button.wpO6b.ZQScA {display: none !important;}
 .yWX7d._8A5w5, ._8A5w5, a._8A5w5, a._8A5w5:visited, .yWX7d, .yWX7d:visited, a.yWX7d, a.yWX7d:visited, a.yWX7d._8A5w5, a.yWX7d._8A5w5:visited,._8Pl3R,.PJXu4,.eXle2{color:rgb(176, 153, 153)!important;}
