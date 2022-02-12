@@ -81,6 +81,8 @@ a.xil3i,a.O4GlU{color:rgb(235, 223, 223)!important;}
 ._4BSuu, div._4BSuu{color:rgb(235, 223, 223)!important;}
 .notranslate{color:rgb(201, 175, 175)!important;}
 div.react-root{color: rgba(242, 230, 230, 0.1) !important;}
+.mTLOB.Szr5J.coreSpriteVerifiedBadge {display: none !important;}
+.mTLOB.Szr5J.coreSpriteVerifiedBadgeSmall{display: none !important;}
 
 body, .react-root, .qF0y9,.Igw0E,.rBNOH,.YBx95,.vwCYk,._9eogI,._01nki,.yUdUG{background-color: rgba(242, 230, 230,0.01) !important;}
 section{background-color: rgba(242, 230, 230, 0.1) !important;}
