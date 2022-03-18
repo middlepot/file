@@ -1,7 +1,7 @@
 //   ・゜ ♡   web code snippet for instagram   ♡ ゜ ・
 //         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
 
-//      last update :  2022 . february . 12
+//      last update :  2022 . march . 18
 
 function addStyleString(str) {
     var node = document.createElement('style');
@@ -75,7 +75,6 @@ canvas.CfWVH{display: none !important;}
 .r8ZrO,.SkY6J{display: none !important;}
 a>div._7UhW9.xLCgt.MMzan._0PwGv.uL8Hv.T0kll{display: none !important;}
 .rBNOH>[data-testid='post-comment-root']{display: none !important;}
-button.wpO6b.ZQScA {display: none !important;}
 .yWX7d._8A5w5, ._8A5w5, a._8A5w5, a._8A5w5:visited, .yWX7d, .yWX7d:visited, a.yWX7d, a.yWX7d:visited, a.yWX7d._8A5w5, a.yWX7d._8A5w5:visited,._8Pl3R,.PJXu4,.eXle2{color:rgb(176, 153, 153)!important;}
 a.xil3i,a.O4GlU{color:rgb(235, 223, 223)!important;}
 ._4BSuu, div._4BSuu{color:rgb(235, 223, 223)!important;}
@@ -83,13 +82,27 @@ a.xil3i,a.O4GlU{color:rgb(235, 223, 223)!important;}
 div.react-root{color: rgba(242, 230, 230, 0.1) !important;}
 .mTLOB.Szr5J.coreSpriteVerifiedBadge {display: none !important;}
 .mTLOB.Szr5J.coreSpriteVerifiedBadgeSmall{display: none !important;}
-
+.uk0Yc{display: none !important;}
+a._0ZPOP.kIKUG.H9zXO::after{display: none !important;}
 body, .react-root, .qF0y9,.Igw0E,.rBNOH,.YBx95,.vwCYk,._9eogI,._01nki,.yUdUG{background-color: rgba(242, 230, 230,0.01) !important;}
 section{background-color: rgba(242, 230, 230, 0.1) !important;}
 .ZyFrc,.qF0y9,.Igw0E,.IwRSH,.YBx95,._4EzTm,.XfCBB,.g6RW6,.k8Vux,.snXeX,a.k8Vux:visited{color:rgb(235, 223, 223)!important;}
 
+div.qF0y9.Igw0E.rBNOH.eGOV_.ybXk5._4EzTm.pjcA_{display: none !important;}
+
+div.KdEwV > div.J_0ip.Vpz-1.TKi86 > div.bqXJH {display: none !important;}
+div.KdEwV > div.J_0ip.Vpz-1.TKi86 {display: none !important;}
+div._4BSuu > div._7UhW9.xLCgt.MMzan._0PwGv.uL8Hv.T0kll {display: none !important;}
+span.eVFA4 {display: none !important;}
+div.JTuEU {display: none !important;}
+
 .glyphsSpriteDirect__outline__96,.u-__7{display: none !important;}
 .qF0y9,.Igw0E,.IwRSH,.eGOV_,._4EzTm,.qF0y9,.Igw0E,.IwRSH,.eGOV_,.ybXk5,.vwCYk,.qF0y9,.Igw0E,.IwRSH,.eGOV_,.ybXk5,.vwCYk{color: rgba(242, 230, 230,0.01) !important;}
+
+div.eiUFA {display: block !important;}
+button.sqdOP.yWX7d.y3zKF {display: block !important;}
+div.WaOAr._8E02J > button.sqdOP.yWX7d.y3zKF{display: block !important;}
+div.RJJyf._1gKD_ > button.sqdOP.yWX7d.y3zKF{display: block !important;}
 
 ::-webkit-scrollbar {
 width: 6px;
