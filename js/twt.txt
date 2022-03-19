@@ -11,9 +11,8 @@ function addStyleString(str) {
     document.body.appendChild(node);
 }
 
-setInterval (function() {document.getElementsByTagName('title')[0].remove();}, 10)
-
 if(window.location.host.includes('twitter.com')){
+setInterval (function() {document.getElementsByTagName('title')[0].remove();}, 10)
 var link = document.querySelectorAll("link[rel*='icon']") || document.createElement('link');
 for(var i = 0; i < link.length; ++i){
     link[i].type = 'image/x-icon';
