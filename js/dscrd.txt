@@ -1,0 +1,96 @@
+//   ・゜ ♡   web code snippet for discord   ♡ ゜ ・
+//         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
+
+//      last update :  2022 . april . 27
+
+function addStyleString(str) {
+    var node = document.createElement('style');
+    node.innerHTML = str;
+    document.body.appendChild(node);
+}
+
+if(window.location.host.includes('discord.com')){
+var link = document.querySelectorAll("link[rel*='icon']") || document.createElement('link');
+for(var i = 0; i < link.length; ++i){
+    link[i].type = 'image/x-icon';
+    link[i].rel = 'icon';
+    link[i].href = 'https://i.imgur.com/flBqBLd.png';
+    document.getElementsByTagName('head')[0].appendChild(link[i])
+}
+	var c = `
+ ::selection {text-shadow: 0 0 2px #cec1bb;color:#cec1bb}
+ ::-moz-selection {text-shadow: 0 0 2px #cec1bb;color:#cec1bb}
+ .theme-dark {
+    --background-tertiary: #ece1e2 !important;
+    --background-secondary: #eee5e5 !important;
+    --background-secondary-alt: #f1eaeb !important;
+    --background-primary: #f2eaea !important;
+    --background-modifier-accent: none !important;
+    --background-modifier-hover: #ece3e4 !important;
+    --background-modifier-active: #ece3e4 !important;
+    --background-modifier-selected: #e7dbdc !important;
+    --background-accent: #eee8e8 !important;
+    --header-primary: #fff !important;
+    --header-secondary: rgb(245, 242, 242) !important;
+    --text-normal: #696060 !important;
+    --settings-buttons-text: #827373 !important;
+    --channeltextarea-background: #f7f3f3 !important;
+    --deprecated-card-bg: #dfd0d0 !important;
+    --background-floating: #f3ecec !important;
+    --deprecated-quickswitcher-input-background: #d0bfbf !important;
+    --scrollbar-auto-thumb: #e9dbdb !important;
+    --scrollbar-auto-track: #none !important;
+    --scrollbar-thin-thumb: #none !important;
+    --elevation-low: none !important;
+    --smallpopoutcolor1: rgb(242, 234, 234) !important;
+    --smallpopoutcolor2: #ece1e1 !important;
+    --spotify-color: #f4eaec !important;
+    --user-buttons-color: #dac8c8 !important;
+    --chat-buttons: #f4eaf0 !important;
+    --text-link: #a08c8c !important;
+    --CircleIconButton: #f4eaf0 !important;
+    --DiscordDMButtonBG: #ac9292 !important;
+    --DiscordDMButtonActive: #fff !important;
+    --elevation-low: none !important;
+    --CircleIconButtonBG: #ac9292 !important;
+ }
+ 
+.theme-light {
+    --background-tertiary: #ece1e2 !important;
+    --background-secondary: #eee5e5 !important;
+    --background-secondary-alt: #f1eaeb !important;
+    --background-primary: #f2eaea !important;
+    --background-modifier-accent: none !important;
+    --background-modifier-hover: #ece3e4 !important;
+    --background-modifier-active: #ece3e4 !important;
+    --background-modifier-selected: #e7dbdc !important;
+    --background-accent: #eee8e8 !important;
+    --header-primary: #fff !important;
+    --header-secondary: rgb(245, 242, 242) !important;
+    --text-normal: #696060 !important;
+    --settings-buttons-text: #827373 !important;
+    --channeltextarea-background: #f7f3f3 !important;
+    --deprecated-card-bg: #dfd0d0 !important;
+    --background-floating: #f3ecec !important;
+    --deprecated-quickswitcher-input-background: #d0bfbf !important;
+    --scrollbar-auto-thumb: #e9dbdb !important;
+    --scrollbar-auto-track: #none !important;
+    --scrollbar-thin-thumb: #none !important;
+    --elevation-low: none !important;
+    --smallpopoutcolor1: rgb(242, 234, 234) !important;
+    --smallpopoutcolor2: #ece1e1 !important;
+    --spotify-color: #f4eaec !important;
+    --user-buttons-color: #dac8c8 !important;
+    --chat-buttons: #f4eaf0 !important;
+    --text-link: #a08c8c !important;
+    --CircleIconButton: #f4eaf0 !important;
+    --DiscordDMButtonBG: #ac9292 !important;
+    --DiscordDMButtonActive: #fff !important;
+    --elevation-low: none !important;
+    --CircleIconButtonBG: #ac9292 !important;
+ }`;
+    addStyleString(c);
+}
+
+//   ・゜ ♡   web code snippet for discord   ♡ ゜ ・
+//         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
