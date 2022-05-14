@@ -1,36 +1,10 @@
-//   ・゜ ♡   web code snippet for discord   ♡ ゜ ・
-//         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
+/*
+   ・゜ ♡   custom css for discord   ♡ ゜ ・
+         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
 
-//      last update :  2022 . april . 27
+      last update :  2022 . april . 27
+*/
 
-function addStyleString(str) {
-    var node = document.createElement('style');
-    node.innerHTML = str;
-    document.body.appendChild(node);
-}
-
-function mremoveBlockedItems(){
-    var selection = document.querySelectorAll('.groupStart-3Mlgv1 .blockedSystemMessage-3FmE9n');
-    if(selection && selection.length > 0){
-        selection.forEach(child =>{
-            var parent = child.closest('.groupStart-3Mlgv1');
-            if(parent){
-                parent.remove();
-            }
-        })
-    }
-}
-setInterval(mremoveBlockedItems, 500);
-
-if(window.location.host.includes('discord.com')){
-var link = document.querySelectorAll("link[rel*='icon']") || document.createElement('link');
-for(var i = 0; i < link.length; ++i){
-    link[i].type = 'image/x-icon';
-    link[i].rel = 'icon';
-    link[i].href = 'https://i.imgur.com/flBqBLd.png';
-    document.getElementsByTagName('head')[0].appendChild(link[i])
-}
-	var c = `
 	.blockedSystemMessage-3FmE9n {display: none !important;}
 	.folderIconWrapper-1oRIZr {background-color: #eee5e5 !important;}
 	.expandedFolderIconWrapper-3RwQpD > svg {color: #dbcacb !important;}
@@ -123,9 +97,9 @@ for(var i = 0; i < link.length; ++i){
     --DiscordDMButtonActive: #fff !important;
     --elevation-low: none !important;
     --CircleIconButtonBG: #ac9292 !important;
- }`;
-    addStyleString(c);
-}
+ }
 
-//   ・゜ ♡   web code snippet for discord   ♡ ゜ ・
-//         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
+/*
+   ・゜ ♡   custom css for discord   ♡ ゜ ・
+         © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
+*/
