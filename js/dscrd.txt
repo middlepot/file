@@ -31,6 +31,11 @@ for(var i = 0; i < link.length; ++i){
     document.getElementsByTagName('head')[0].appendChild(link[i])
 }
 	var c = `
+	.newMessagesBar-1hF-9G.barBase-3xxDXu {background-color: #eee5e5 !important;}
+	.autocomplete-3NRXG8.autocomplete-3jLKbj.autocompleteAttached-bt_md- {background-color: #eee5e5 !important;}
+	.unreadPill-3nEWYM {display: none !important;}
+	.replying-eZ7p5z {background-color: #eee5e5 !important;}
+	.replying-eZ7p5z:before {background-color: #dbcacb !important;}
 	.blockedSystemMessage-3FmE9n {display: none !important;}
 	.folderIconWrapper-1oRIZr {background-color: #eee5e5 !important;}
 	.expandedFolderIconWrapper-3RwQpD > svg {color: #dbcacb !important;}
@@ -50,6 +55,7 @@ for(var i = 0; i < link.length; ++i){
 	.message-2CShn3.cozyMessage-1DWF9U.mentioned-Tre-dv.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz {background-color: #eee5e5 !important;}
 	.mentioned-Tre-dv:before {background-color: #dbcacb !important;}
 	.roleMention-11Aaqi.desaturate-_Twf3u.wrapper-1ZcZW-.mention {background-color: #dbcacb !important; color: #fff !important;}
+	.wrapper-1ZcZW-.mention {background-color: #dbcacb !important; color: #fff !important;}
 	.mention.wrapper-1ZcZW-.mention.interactive {background-color: #dbcacb !important; color: #fff !important;}
 	.reaction-2A2y9y.reactionMe-3I9gFK {background-color: rgb(255, 255, 255, 0.05) !important; border-color: #dbcacb !important; color: #fff !important;}
 	.reactionCount-1zkLcN {color: #fff !important;}
