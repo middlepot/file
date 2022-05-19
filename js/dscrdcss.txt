@@ -5,6 +5,7 @@
       last update :  2022 . april . 27
 */
 
+	.spoilerText-27bIiA.hidden-3B-Rum {background-color: #eee5e5 !important;}
 	.newMessagesBar-1hF-9G.barBase-3xxDXu {background-color: #eee5e5 !important;}
 	.autocomplete-3NRXG8.autocomplete-3jLKbj.autocompleteAttached-bt_md- {background-color: #eee5e5 !important;}
 	.unreadPill-3nEWYM {display: none !important;}
