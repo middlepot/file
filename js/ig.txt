@@ -18,7 +18,7 @@ for(var i = 0; i < link.length; ++i){
     link[i].href = 'https://instagram.fcgh10-1.fna.fbcdn.net/v/t51.2885-15/e35/138746589_442907616865035_5029817158956687149_n.jpg?_nc_ht=instagram.fcgh10-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=zutUN4LOW1QAX_R5sZu&edm=AP_V10EBAAAA&ccb=7-4&oh=00_AT8B8_HwHi537DKqKpXQPYbKJ76OfEMUi2rNkgJpQs_Tqw&oe=61BFF54E&_nc_sid=4f375e';
     document.getElementsByTagName('head')[0].appendChild(link[i])
 }
-	var c = `body{background: url("https://i.imgur.com/VtPAPqt.png") repeat !important;
+	var c = `
 	    background-color: 237, 223, 223;
 	}
 	
